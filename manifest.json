@@ -1,0 +1,12 @@
+{
+    "name": "Random Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "A random Chrome extension",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_title": "Click me for a random number!",
+      "default_popup": "index.html"
+    }
+  }
+  
